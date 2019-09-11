@@ -3,17 +3,17 @@ package com.group_six.yyjhservice.dao.datasource;
 import com.group_six.yyjhservice.domain.datasource.TDatasource;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface TDatasourceMapper {
-    int deleteByPrimaryKey(Integer id);
+    int delTDatasourceById(Integer id);
 
-    int insert(TDatasource record);
+    int addTDatasource(TDatasource record);
 
-    int insertSelective(TDatasource record);
+    TDatasource findTDatasourceByid(Integer id);
 
-    TDatasource selectByPrimaryKey(Integer id);
+    int updTDatasource(TDatasource record);
 
-    int updateByPrimaryKeySelective(TDatasource record);
-
-    int updateByPrimaryKey(TDatasource record);
+    List<TDatasource> getAll();
 }

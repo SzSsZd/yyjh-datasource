@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c3bd550-3779-4f5b-bcf9-6b7686b3ff37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TPermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TPermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRolePermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRolePermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TUserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/datasource/TDatasourceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/datasource/TDatasourceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/user/TUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/user/TUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TPermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TPermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TRolePermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TRolePermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TUserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/datasource/TDatasourceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/datasource/TDatasourceMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/user/TUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/user/TUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yyjh-service/src/test/java/com/group_six/yyjhservice/YyjhServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/src/test/java/com/group_six/yyjhservice/YyjhServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yyjh-service/yyjh-datasource.log" beforeDir="false" afterPath="$PROJECT_DIR$/yyjh-service/yyjh-datasource.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/yyjh-service/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +36,14 @@
     <session id="1695661953">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -32,21 +51,21 @@
           <entry key="T" value="1" />
           <entry key="Test" value="3" />
           <entry key="class" value="1" />
-          <entry key="java" value="42" />
+          <entry key="java" value="64" />
           <entry key="pom" value="2" />
           <entry key="properties" value="4" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="17" />
+          <entry key="xml" value="30" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="65" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="19" />
+          <entry key="XML" value="32" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
@@ -54,18 +73,18 @@
         <counts>
           <entry key="T" value="19" />
           <entry key="Test" value="3" />
-          <entry key="java" value="202" />
+          <entry key="java" value="1377" />
           <entry key="properties" value="299" />
-          <entry key="xml" value="37" />
+          <entry key="xml" value="69" />
           <entry key="yml" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="221" />
+          <entry key="JAVA" value="1396" />
           <entry key="Properties" value="299" />
-          <entry key="XML" value="37" />
+          <entry key="XML" value="69" />
           <entry key="YAML" value="68" />
         </counts>
       </usages-collector>
@@ -73,29 +92,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yyjh-service/src/test/java/com/group_six/yyjhservice/YyjhServiceApplicationTests.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/datasource/TDatasourceMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TPermissionMapper.xml">
+        <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/service/datasource/TDatasourceServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="289">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yyjh-service/src/test/java/com/group_six/yyjhservice/service/datasource/TDatasourceServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,16 +168,28 @@
         <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/domain/datasource/TDatasource.java" />
         <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/domain/user/TUser.java" />
         <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/YyjhServiceApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/config/jedis/JedisConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yyjh-service/pom.xml" />
-        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TPermissionMapper.java" />
-        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRoleMapper.java" />
-        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRolePermissionMapper.java" />
-        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TUserRoleMapper.java" />
-        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/datasource/TDatasourceMapper.java" />
-        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/user/TUserMapper.java" />
         <option value="$PROJECT_DIR$/yyjh-service/src/test/java/com/group_six/yyjhservice/YyjhServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/group_six/tools/YYJHTools.java" />
+        <option value="$PROJECT_DIR$/common/src/test/java/com/group_six/tools/YYJHToolsTest.java" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/datasource/TDatasourceMapper.java" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/datasource/TDatasourceMapper.xml" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/service/datasource/TDatasourceService.java" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/test/java/com/group_six/yyjhservice/dao/datasource/TDatasourceMapperTest.java" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TPermissionMapper.java" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/user/TUserMapper.java" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/user/TUserMapper.xml" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TPermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRoleMapper.java" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRolePermissionMapper.java" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TRolePermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TUserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TUserRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/service/datasource/TDatasourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yyjh-service/src/test/java/com/group_six/yyjhservice/service/datasource/TDatasourceServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -171,8 +229,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
-    <option name="y" value="17" />
+    <option name="x" value="86" />
+    <option name="y" value="16" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -185,6 +243,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,6 +293,70 @@
               <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjhservice" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjhservice" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjhservice" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjhservice" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjhservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjhservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,12 +378,74 @@
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjhservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjhservice" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyjh-datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yyjh-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjh-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyjhservice" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -270,7 +456,9 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568183035225" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568204686249" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -278,6 +466,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.group_six.yyjhservice.service.datasource" />
+      <recent name="com.group_six.yyjhservice.dao.datasource" />
+      <recent name="com.group_six.tools" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SchoolStudy\Big-hazhen\yyjh-datasource\yyjh-service\src\main\java\com\group_six\yyjhservice\service" />
       <recent name="D:\SchoolStudy\Big-hazhen\yyjh-datasource\yyjh-service\src\main\java\com\group_six\yyjhservice\domain" />
@@ -287,6 +483,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -298,49 +499,90 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.YyjhServiceApplicationTests">
-    <configuration name="YyjhServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TDatasourceServiceImplTest.testFindTDatasourceByid">
+    <configuration name="TDatasourceServiceImplTest.testAddTDatasource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="yyjh-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.group_six.yyjhservice.*" />
+          <option name="PATTERN" value="com.group_six.yyjhservice.service.datasource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.group_six.yyjhservice" />
-      <option name="MAIN_CLASS_NAME" value="com.group_six.yyjhservice.YyjhServiceApplicationTests" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YyjhServiceApplicationTests.testJedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yyjh-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.group_six.yyjhservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.group_six.yyjhservice" />
-      <option name="MAIN_CLASS_NAME" value="com.group_six.yyjhservice.YyjhServiceApplicationTests" />
-      <option name="METHOD_NAME" value="testJedis" />
+      <option name="PACKAGE_NAME" value="com.group_six.yyjhservice.service.datasource" />
+      <option name="MAIN_CLASS_NAME" value="com.group_six.yyjhservice.service.datasource.TDatasourceServiceImplTest" />
+      <option name="METHOD_NAME" value="testAddTDatasource" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YyjhServiceApplicationTests.testMybatis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TDatasourceServiceImplTest.testDelTDatasourceById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="yyjh-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.group_six.yyjhservice.*" />
+          <option name="PATTERN" value="com.group_six.yyjhservice.service.datasource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.group_six.yyjhservice" />
-      <option name="MAIN_CLASS_NAME" value="com.group_six.yyjhservice.YyjhServiceApplicationTests" />
-      <option name="METHOD_NAME" value="testMybatis" />
+      <option name="PACKAGE_NAME" value="com.group_six.yyjhservice.service.datasource" />
+      <option name="MAIN_CLASS_NAME" value="com.group_six.yyjhservice.service.datasource.TDatasourceServiceImplTest" />
+      <option name="METHOD_NAME" value="testDelTDatasourceById" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TDatasourceServiceImplTest.testFindTDatasourceByid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yyjh-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.group_six.yyjhservice.service.datasource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.group_six.yyjhservice.service.datasource" />
+      <option name="MAIN_CLASS_NAME" value="com.group_six.yyjhservice.service.datasource.TDatasourceServiceImplTest" />
+      <option name="METHOD_NAME" value="testFindTDatasourceByid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TDatasourceServiceImplTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yyjh-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.group_six.yyjhservice.service.datasource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.group_six.yyjhservice.service.datasource" />
+      <option name="MAIN_CLASS_NAME" value="com.group_six.yyjhservice.service.datasource.TDatasourceServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TDatasourceServiceImplTest.testUpdTDatasource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yyjh-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.group_six.yyjhservice.service.datasource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.group_six.yyjhservice.service.datasource" />
+      <option name="MAIN_CLASS_NAME" value="com.group_six.yyjhservice.service.datasource.TDatasourceServiceImplTest" />
+      <option name="METHOD_NAME" value="testUpdTDatasource" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.group_six.common.CommonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -354,15 +596,20 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.YyjhServiceApplication" />
-      <item itemvalue="JUnit.YyjhServiceApplicationTests" />
-      <item itemvalue="JUnit.YyjhServiceApplicationTests.testJedis" />
-      <item itemvalue="JUnit.YyjhServiceApplicationTests.testMybatis" />
+      <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="JUnit.TDatasourceServiceImplTest.testAddTDatasource" />
+      <item itemvalue="JUnit.TDatasourceServiceImplTest.testGetAll" />
+      <item itemvalue="JUnit.TDatasourceServiceImplTest.testUpdTDatasource" />
+      <item itemvalue="JUnit.TDatasourceServiceImplTest.testFindTDatasourceByid" />
+      <item itemvalue="JUnit.TDatasourceServiceImplTest.testDelTDatasourceById" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.YyjhServiceApplicationTests" />
-        <item itemvalue="JUnit.YyjhServiceApplicationTests.testMybatis" />
-        <item itemvalue="JUnit.YyjhServiceApplicationTests.testJedis" />
+        <item itemvalue="JUnit.TDatasourceServiceImplTest.testFindTDatasourceByid" />
+        <item itemvalue="JUnit.TDatasourceServiceImplTest.testDelTDatasourceById" />
+        <item itemvalue="JUnit.TDatasourceServiceImplTest.testUpdTDatasource" />
+        <item itemvalue="JUnit.TDatasourceServiceImplTest.testGetAll" />
+        <item itemvalue="JUnit.TDatasourceServiceImplTest.testAddTDatasource" />
       </list>
     </recent_temporary>
   </component>
@@ -380,32 +627,51 @@
       <workItem from="1568110347062" duration="911000" />
       <workItem from="1568130669719" duration="1000" />
       <workItem from="1568164401712" duration="12442000" />
-      <workItem from="1568184323875" duration="591000" />
+      <workItem from="1568184323875" duration="10013000" />
+      <workItem from="1568200627127" duration="3424000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YyjhServiceApplicationTests - 2019.09.11 at 11h 54m 36s.xml">
-      <configuration name="YyjhServiceApplicationTests" configurationId="JUnit" />
+    <history-entry file="TDatasourceMapperTest_testFindTDatasourceByid - 2019.09.11 at 17h 12m 20s.xml">
+      <configuration name="TDatasourceMapperTest.testFindTDatasourceByid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YyjhServiceApplicationTests_testJedis - 2019.09.11 at 13h 04m 17s.xml">
-      <configuration name="YyjhServiceApplicationTests.testJedis" configurationId="JUnit" />
+    <history-entry file="TDatasourceMapperTest_testUpdTDatasource - 2019.09.11 at 17h 13m 57s.xml">
+      <configuration name="TDatasourceMapperTest.testUpdTDatasource" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YyjhServiceApplicationTests_testMybatis - 2019.09.11 at 13h 04m 36s.xml">
-      <configuration name="YyjhServiceApplicationTests.testMybatis" configurationId="JUnit" />
+    <history-entry file="TDatasourceMapperTest_testGetAll - 2019.09.11 at 17h 14m 23s.xml">
+      <configuration name="TDatasourceMapperTest.testGetAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="YyjhServiceApplicationTests - 2019.09.11 at 13h 36m 05s.xml">
-      <configuration name="YyjhServiceApplicationTests" configurationId="JUnit" />
+    <history-entry file="TDatasourceMapperTest_testGetAll - 2019.09.11 at 17h 17m 22s.xml">
+      <configuration name="TDatasourceMapperTest.testGetAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TDatasourceServiceImplTest_testAddTDatasource - 2019.09.11 at 20h 20m 50s.xml">
+      <configuration name="TDatasourceServiceImplTest.testAddTDatasource" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TDatasourceServiceImplTest_testGetAll - 2019.09.11 at 20h 21m 30s.xml">
+      <configuration name="TDatasourceServiceImplTest.testGetAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TDatasourceServiceImplTest_testUpdTDatasource - 2019.09.11 at 20h 22m 25s.xml">
+      <configuration name="TDatasourceServiceImplTest.testUpdTDatasource" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TDatasourceServiceImplTest_testFindTDatasourceByid - 2019.09.11 at 20h 23m 00s.xml">
+      <configuration name="TDatasourceServiceImplTest.testFindTDatasourceByid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TDatasourceServiceImplTest_testDelTDatasourceById - 2019.09.11 at 20h 23m 38s.xml">
+      <configuration name="TDatasourceServiceImplTest.testDelTDatasourceById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TDatasourceServiceImplTest_testFindTDatasourceByid - 2019.09.11 at 20h 23m 56s.xml">
+      <configuration name="TDatasourceServiceImplTest.testFindTDatasourceByid" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14047000" />
+    <option name="totallyTimeSpent" value="26893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="14" width="1400" height="776" extended-state="0" />
+    <frame x="69" y="13" width="1400" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26453054" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2675112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -415,18 +681,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32970452" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32970452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970452" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32970452" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.32970452" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -439,37 +706,39 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26080477" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Java Enterprise" order="1" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32970452" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32935917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26453054" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.32970452" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32970452" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32970452" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32935917" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +748,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test" />
     <entry file="file://$PROJECT_DIR$/T" />
     <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/test/permission.xml" />
     <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/config/shiro/ShiroConfiguration.java">
@@ -528,27 +796,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/datasource/TDatasourceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="108" column="48" lean-forward="true" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/domain/auth/TPermission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,9 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-266">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,17 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -619,73 +850,6 @@
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.pom">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yyjh-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="83" column="42" lean-forward="true" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TPermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRolePermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TUserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/datasource/TDatasourceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/user/TUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/config/jedis/JedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -705,27 +869,189 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
           <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/YYJHTools.java" />
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/group_six/tools/YYJHToolsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/group_six/tools/YYJHTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yyjh-service/src/test/java/com/group_six/yyjhservice/YyjhServiceApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="190">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/service/datasource/TDatasourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/datasource/TDatasourceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1881">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/user/TUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/user/TUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TPermissionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TPermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TRolePermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TRolePermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/auth/TUserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/resources/mybatis/auth/TUserRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/service/datasource/TDatasourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/main/java/com/group_six/yyjhservice/dao/datasource/TDatasourceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/test/java/com/group_six/yyjhservice/dao/datasource/TDatasourceMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yyjh-service/src/test/java/com/group_six/yyjhservice/service/datasource/TDatasourceServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

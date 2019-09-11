@@ -5,15 +5,11 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface TRolePermissionMapper {
-    int deleteByPrimaryKey(Integer id);
+    int delTRolePermissionById(Integer id);
 
-    int insert(TRolePermission record);
+    int addTRolePermission(TRolePermission record);
 
-    int insertSelective(TRolePermission record);
+    TRolePermission findTRolePermissionById(Integer id);
 
-    TRolePermission selectByPrimaryKey(Integer id);
-
-    int updateByPrimaryKeySelective(TRolePermission record);
-
-    int updateByPrimaryKey(TRolePermission record);
+    int updTRolePermission(TRolePermission record);
 }
