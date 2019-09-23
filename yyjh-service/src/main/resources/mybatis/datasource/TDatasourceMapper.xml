@@ -16,7 +16,7 @@
     <result column="username" property="username" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="VARCHAR" />
     <result column="description" property="description" jdbcType="VARCHAR" />
-    <result column="encode" property="encode" jdbcType="VARCHAR" />
+    <result column="encode" property="encode" />
   </resultMap>
   <sql id="Base_Column_List" >
     id, user_id, type, createtime, updatetime, database_name, alias, driver, url, port, 
@@ -130,7 +130,7 @@
         #{description,jdbcType=VARCHAR},
       </if>
       <if test="encode != null" >
-        #{encode,jdbcType=VARCHAR},
+        #{encode},
       </if>
     </trim>
   </insert>
@@ -177,7 +177,7 @@
         description = #{description,jdbcType=VARCHAR},
       </if>
       <if test="encode != null" >
-        encode = #{encode,jdbcType=VARCHAR},
+        encode = #{encode},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}

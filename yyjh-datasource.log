@@ -1,32 +1,17 @@
-2019/09/11-11:41 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- Starting YyjhServiceApplication on DESKTOP-UA2SK1G with PID 11488 (D:\SchoolStudy\Big-hazhen\yyjh-datasource\yyjh-service\target\classes started by asus in D:\SchoolStudy\Big-hazhen\yyjh-datasource)
-2019/09/11-11:41 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- No active profile set, falling back to default profiles: default
-2019/09/11-11:41 [main] INFO  com.group_six.yyjhservice.config.jedis.JedisConfig- JedisPool注入成功！
-2019/09/11-11:41 [main] INFO  com.group_six.yyjhservice.config.jedis.JedisConfig- redis地址：127.0.0.1:6379
-2019/09/11-11:41 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- Started YyjhServiceApplication in 2.015 seconds (JVM running for 3.476)
-2019/09/11-11:42 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- Starting YyjhServiceApplication on DESKTOP-UA2SK1G with PID 1972 (D:\SchoolStudy\Big-hazhen\yyjh-datasource\yyjh-service\target\classes started by asus in D:\SchoolStudy\Big-hazhen\yyjh-datasource)
-2019/09/11-11:42 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- No active profile set, falling back to default profiles: default
-2019/09/11-11:42 [main] WARN  org.springframework.context.annotation.AnnotationConfigApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jedisUtil': Unsatisfied dependency expressed through field 'jedisPool'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'redis.clients.jedis.JedisPool' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2019/09/11-11:42 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener- 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019/09/11-11:42 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field jedisPool in com.group_six.yyjhservice.config.jedis.JedisUtil required a bean of type 'redis.clients.jedis.JedisPool' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'redis.clients.jedis.JedisPool' in your configuration.
-
-2019/09/11-11:43 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- Starting YyjhServiceApplication on DESKTOP-UA2SK1G with PID 12228 (D:\SchoolStudy\Big-hazhen\yyjh-datasource\yyjh-service\target\classes started by asus in D:\SchoolStudy\Big-hazhen\yyjh-datasource)
-2019/09/11-11:43 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- No active profile set, falling back to default profiles: default
-2019/09/11-11:43 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- Started YyjhServiceApplication in 1.333 seconds (JVM running for 2.706)
+2019/09/23-16:45 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- Starting YyjhServiceApplication on DESKTOP-UA2SK1G with PID 6228 (D:\SchoolStudy\Big-hazhen\yyjh-datasource\yyjh-service\target\classes started by asus in D:\SchoolStudy\Big-hazhen\yyjh-datasource)
+2019/09/23-16:45 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- No active profile set, falling back to default profiles: default
+2019/09/23-16:45 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bc98a303] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/23-16:45 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2019/09/23-16:45 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/23-16:45 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/23-16:45 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/23-16:45 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 7709 ms
+2019/09/23-16:45 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/23-16:45 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/09/23-16:45 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2019/09/23-16:45 [main] INFO  com.group_six.yyjhservice.YyjhServiceApplication- Started YyjhServiceApplication in 17.664 seconds (JVM running for 25.472)
+2019/09/23-16:45 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource- DatebookHikariCP - Starting...
+2019/09/23-16:45 [RMI TCP Connection(9)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/23-16:45 [RMI TCP Connection(9)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/23-16:45 [RMI TCP Connection(9)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 54 ms
+2019/09/23-16:45 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource- DatebookHikariCP - Start completed.

@@ -6,6 +6,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.UUID;
 
 public class YYJHTools {
     public static final String DEFAULT_FORMAT_PARAM = "yyyy-MM-dd' 'HH:mm:ss";
@@ -41,5 +42,11 @@ public class YYJHTools {
     //去除所有，包括字符间的空格
     public static String filterInnerBlank(String str){
         return str.replaceAll(" ","");
+    }
+
+    //生成UID
+    public static String getUID(){
+        String uid = UUID.randomUUID().toString().trim().replaceAll("-","");
+        return uid;
     }
 }
