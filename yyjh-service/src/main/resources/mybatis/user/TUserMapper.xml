@@ -24,6 +24,24 @@
     from t_user
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="findTUserByLogid" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    <include refid="Base_Column_List" />
+    from t_user
+    where loginId = #{loginid,jdbcType=VARCHAR}
+  </select>
+  <select id="findTUserByTel" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    <include refid="Base_Column_List" />
+    from t_user
+    where tel = #{tel,jdbcType=VARCHAR}
+  </select>
+  <select id="findUserByEmail" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    <include refid="Base_Column_List" />
+    from t_user
+    where email = #{email,jdbcType=VARCHAR}
+  </select>
   <delete id="delTUserById" parameterType="java.lang.Integer" >
     delete from t_user
     where id = #{id,jdbcType=INTEGER}

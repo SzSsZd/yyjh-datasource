@@ -13,4 +13,10 @@ public interface TUserMapper {
     TUser findTUserById(Integer id);
 
     int updTUser(TUser record);
+
+    TUser findTUserByLogid(String loginid);
+
+    TUser findTUserByTel(String tel);
+
+    TUser findUserByEmail(String email);
 }

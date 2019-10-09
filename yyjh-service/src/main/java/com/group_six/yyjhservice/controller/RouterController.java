@@ -10,4 +10,12 @@ public class RouterController {
     public String datasource(){
         return "datasource/datasource";
     }
+    @RequestMapping("/login")
+    public String login(){return "login/index";}
+    @RequestMapping("/logout")
+    public String logout(){ return "login/index";}//方法体不执行
+    @RequestMapping("/errorpage")
+    public String error(){return "login/errorpage";}
+    @RequestMapping("/redis")
+    public String redis(){return "login/redis";}
 }

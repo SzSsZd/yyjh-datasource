@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
+    $.ajax({
+        type:"post",
+        url:"/index/testShiro",
+        error:function(data){
+            window.location.href="/router/login"
+        }
+    })
+
     //选择数据源按钮弹窗
     db_btns = $("#showDrivers_choosen").find("div")
         .find(".modal-body").find("button")
@@ -24,7 +32,31 @@ $(document).ready(function() {
     $(db_btns[3]).click(function() {
         //REDIS弹窗
         $("#showDrivers_choosen").modal("hide")
+        $("#redis_conf").modal("show")
 
+    })
+    //登出
+    $("#logout").click(function () {
+        $.ajax({
+            type:"post",
+            url:"/index/logout",
+            data:{
+                'log_id':sessionStorage.getItem("log_id")
+            },
+            datatype:"json",
+            success:function(data){
+                if (data.code==0){
+                    sessionStorage.removeItem("log_id")
+                    $.ajax({
+                        type:"post",
+                        url:"/router/logout",
+                        error:function () {
+                            window.location.href="/router/login"
+                        }
+                    })
+                }else alert("登出失败")
+            }
+        })
     })
 
     //CSV操作
@@ -164,7 +196,7 @@ function create_csv_table(btn) {
 }
 
 function init_csv_table(init_filename) {
-    let data = []
+    let data = [];
     for(i = 0; i < globle_csv_datas.length; i++) {
         if(globle_csv_datas[i].file_name == init_filename) {
             data = globle_csv_datas[i].file_datas

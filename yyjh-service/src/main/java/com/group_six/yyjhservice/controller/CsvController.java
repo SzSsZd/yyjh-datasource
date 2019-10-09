@@ -99,8 +99,8 @@ public class CsvController {
                     }
                     file_datas.add(json_cols);
                 }
-                json_file.put("filename",file.getOriginalFilename());
-                json_file.put("filedatas",file_datas);
+                json_file.put("file_name",file.getOriginalFilename());
+                json_file.put("file_datas",file_datas);
                 datas.add(json_file);
             }
             //返回数据

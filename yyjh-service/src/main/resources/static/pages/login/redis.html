@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../bootstrap/css/bootstrap-select.css" />
+		<link rel="stylesheet" href="../../bootstrap/css/bootstrap-table.min.css" />
+		<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css" />
+
+		<style>
+			.center{
+				margin-left: 42%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h2 class="text-center">redis配置</h2>
+			<div role="form" class="form-horizontal center">
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon">IP地址</span>
+						<input id="r_ip" type="text" placeholder="请输入IP地址" />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon">端口号</span>
+						<input id="r_port" type="password" placeholder="请输入端口号"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon">密&nbsp&nbsp&nbsp码</span>
+						<input id="r_pwd" type="password" placeholder="请输入密码"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<button id="r_test" class="btn btn-default">测试连接</button>
+				</div>
+				<div class="form-group">
+					<button id="r_clear" class="btn btn-default">重置</button>
+					<button id="r_sub" class="btn btn-default">确定</button>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../../js/jquery-2.1.1.min.js" ></script>
+		<script type="text/javascript" src="../../bootstrap/js/bootstrap-select.js"></script>
+		<script type="text/javascript" src="../../bootstrap/js/bootstrap-table.min.js" ></script>
+		<script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="../../js/jquery.ui.widget.js"></script>
+		<script type="text/javascript" src="../../js/jquery.iframe-transport.js"></script>
+		<script type="text/javascript" src="../../js/jquery.fileupload.js"></script>
+		<script type="text/javascript" src="../../js/redis.js"></script>
+	</body>
+</html>

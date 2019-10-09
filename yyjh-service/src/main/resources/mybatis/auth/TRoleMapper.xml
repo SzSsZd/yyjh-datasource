@@ -14,10 +14,15 @@
     id, rolename, roledesc, create_time, update_time, remark, state
   </sql>
   <select id="findTRoleById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
-    select 
-    <include refid="Base_Column_List" />
+    select *
     from t_role
     where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="findTRoleByLogid" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    SELECT * from t_role WHERE id in(
+	SELECT role_id FROM t_user_role WHERE user_id=(
+		SELECT id FROM t_user WHERE loginId = #{logid,jdbcType=VARCHAR})
+)
   </select>
   <delete id="delTRoleById" parameterType="java.lang.Integer" >
     delete from t_role
