@@ -7,13 +7,19 @@ import java.util.List;
 
 @Repository
 public interface TDatasourceMapper {
-    int delTDatasourceById(Integer id);
+    int delTDataSourceById(Integer id);
 
-    int addTDatasource(TDatasource record);
+    int addTDataSource(TDatasource record);
 
-    TDatasource findTDatasourceByid(Integer id);
+    TDatasource findTDataSourceById(Integer id);
 
-    int updTDatasource(TDatasource record);
+    int updTDataSourceById(TDatasource record);
 
     List<TDatasource> getAll();
+
+    Integer getTotal();
+
+    List<TDatasource> getTDatasourceListPage(TDatasource record);
+
+    int batchDeleteById(List<Integer> idsList);
 }

@@ -19,5 +19,4 @@ public class TRole {
     private String remark;
 
     private String state;
-
 }

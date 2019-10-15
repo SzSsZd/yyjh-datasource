@@ -5,13 +5,19 @@ import com.group_six.yyjhservice.domain.datasource.TDatasource;
 import java.util.List;
 
 public interface TDatasourceService {
-    boolean delTDatasourceById(Integer id);
+    boolean delTDataSourceById(Integer id);
 
-    boolean addTDatasource(TDatasource record);
+    boolean addTDataSource(TDatasource record);
 
-    TDatasource findTDatasourceByid(Integer id);
+    TDatasource findTDataSourceById(Integer id);
 
-    boolean updTDatasource(TDatasource record);
+    boolean updTDataSourceById(TDatasource record);
 
     List<TDatasource> getAll();
+
+    Integer getTotal();
+
+    List<TDatasource> getTDatasourceListPage(TDatasource record);
+
+    boolean batchDeleteById(List<Integer> idsList);
 }

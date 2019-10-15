@@ -27,5 +27,4 @@ public class TUser {
     private String remark;
 
     private String state;
-
 }

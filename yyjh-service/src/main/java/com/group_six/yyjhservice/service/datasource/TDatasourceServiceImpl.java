@@ -2,6 +2,7 @@ package com.group_six.yyjhservice.service.datasource;
 
 import com.group_six.yyjhservice.dao.datasource.TDatasourceMapper;
 import com.group_six.yyjhservice.domain.datasource.TDatasource;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
@@ -11,43 +12,64 @@ import java.util.List;
 
 @Service
 @Primary
+@Slf4j
 @Transactional
-public class TDatasourceServiceImpl implements TDatasourceService{
+public class TDatasourceServiceImpl implements TDatasourceService {
 
     @Autowired
-    TDatasourceMapper tDatasourceMapper;
+    private TDatasourceMapper tDatasourceMapper;
 
     @Override
-    public boolean delTDatasourceById(Integer id) {
-        boolean flag = false;
-        int count = tDatasourceMapper.delTDatasourceById(id);
-        if (count>0) flag = true;
-        return flag;
+    public boolean delTDataSourceById(Integer id) {
+        int count=tDatasourceMapper.delTDataSourceById(id);
+        if (count>0)
+            return true;
+        return false;
     }
 
     @Override
-    public boolean addTDatasource(TDatasource record) {
-        boolean flag = false;
-        int count = tDatasourceMapper.addTDatasource(record);
-        if (count>0) flag = true;
-        return flag;
+    public boolean addTDataSource(TDatasource record) {
+        int count=tDatasourceMapper.addTDataSource(record);
+        if (count>0)
+            return true;
+        return false;
+
     }
 
     @Override
-    public TDatasource findTDatasourceByid(Integer id) {
-        return tDatasourceMapper.findTDatasourceByid(id);
+    public TDatasource findTDataSourceById(Integer id) {
+        return tDatasourceMapper.findTDataSourceById(id);
     }
 
     @Override
-    public boolean updTDatasource(TDatasource record) {
-        boolean flag = false;
-        int count = tDatasourceMapper.updTDatasource(record);
-        if (count>0) flag = true;
-        return flag;
+    public boolean updTDataSourceById(TDatasource record) {
+        int count=tDatasourceMapper.updTDataSourceById(record);
+        if (count>0)
+            return true;
+        return false;
     }
 
     @Override
     public List<TDatasource> getAll() {
         return tDatasourceMapper.getAll();
     }
+
+    @Override
+    public Integer getTotal() {
+        return tDatasourceMapper.getTotal();
+    }
+
+    @Override
+    public List<TDatasource> getTDatasourceListPage(TDatasource record) {
+        return tDatasourceMapper.getTDatasourceListPage(record);
+    }
+
+    @Override
+    public boolean batchDeleteById(List<Integer> idsList) {
+        int count=tDatasourceMapper.batchDeleteById(idsList);
+        if (count>0)
+            return true;
+        return false;
+    }
+
 }

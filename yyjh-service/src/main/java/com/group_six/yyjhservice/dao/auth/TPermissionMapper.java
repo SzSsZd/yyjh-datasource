@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+
 @Repository
 public interface TPermissionMapper {
     int delTPermissionById(Integer id);
@@ -13,7 +14,11 @@ public interface TPermissionMapper {
 
     TPermission findTPermissionById(Integer id);
 
-    int updTPermission(TPermission record);
+    int updTPermissionById(TPermission record);
+
+    List<TPermission> getAll();
 
     List<TPermission> findTPermissionByRoleid(Integer roleid);
+
+    TPermission findTPermissionByName(String permission);
 }

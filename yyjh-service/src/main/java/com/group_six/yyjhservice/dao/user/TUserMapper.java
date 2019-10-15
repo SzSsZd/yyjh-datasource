@@ -3,6 +3,8 @@ package com.group_six.yyjhservice.dao.user;
 import com.group_six.yyjhservice.domain.user.TUser;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 
 @Repository
 public interface TUserMapper {
@@ -13,6 +15,8 @@ public interface TUserMapper {
     TUser findTUserById(Integer id);
 
     int updTUser(TUser record);
+
+    List<TUser> getAll();
 
     TUser findTUserByLogid(String loginid);
 

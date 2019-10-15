@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @Primary
 public class TUserServiceImpl implements TUserService {
@@ -48,5 +50,10 @@ public class TUserServiceImpl implements TUserService {
         if (user==null) user = tUserMapper.findTUserByTel(param);
         if (user==null) user = tUserMapper.findUserByEmail(param);
         return user;
+    }
+
+    @Override
+    public List<TUser> getAll() {
+        return tUserMapper.getAll();
     }
 }

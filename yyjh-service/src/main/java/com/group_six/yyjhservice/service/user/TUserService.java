@@ -2,6 +2,8 @@ package com.group_six.yyjhservice.service.user;
 
 import com.group_six.yyjhservice.domain.user.TUser;
 
+import java.util.List;
+
 public interface TUserService {
     boolean delTUserById(Integer id);
 
@@ -14,4 +16,6 @@ public interface TUserService {
     TUser findTUserByLogid(String logid);
 
     TUser findTUserByParam(String param);
+
+    List<TUser> getAll();
 }

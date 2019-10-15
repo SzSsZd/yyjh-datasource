@@ -1,11 +1,9 @@
 package com.group_six.tools;
 
-
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-
 
 import java.io.IOException;
 import java.sql.*;
@@ -26,13 +24,13 @@ public class JDBCTools {
         int count = -1;
         if (conn != null){
             //拼接建表语句
-            String tableSql = "create table " + tableName + " (";
+            String tableSql = "create table t_" + tableName + " (";
             for (String key : keys){
                 tableSql += key + " varchar(50),";
             }
             tableSql += "PRIMARY KEY (" + primary_key + "));\n";
             //拼接insert语句
-            tableSql += "insert into "+ tableName + " (";
+            tableSql += "insert into t_"+ tableName + " (";
             for (String key: keys){
                 tableSql += key + ",";
             }
@@ -40,10 +38,15 @@ public class JDBCTools {
             tableSql += ") values(";
             for (int i = 0; i < datas.size(); i++){
                 JsonNode jn = datas.get(i);
-                for (int j = 0; j < jn.size(); j++) {
-                    tableSql += "'"+ jn.get(keys.get(j)).asText() + "',";
+                for (int j = 0; j < keys.size(); j++) {
+                    try {
+                        String value = jn.get(keys.get(j)).asText();
+                        tableSql += "'" + jn.get(keys.get(j)).asText() + "',";
+                    }catch (NullPointerException e){
+                        tableSql += "null,";
+                    }
                 }
-                tableSql = tableSql.substring(0,tableSql.length()-1);
+                tableSql = tableSql.substring(0, tableSql.length() - 1);
                 tableSql += "),(";
             }
             tableSql = tableSql.substring(0,tableSql.length()-2);
@@ -52,9 +55,65 @@ public class JDBCTools {
             count = smt.executeUpdate(tableSql);
         }
         if (count==0){
+            conn.close();
             return true;
-        }else
+        }else{
+            conn.close();
             return false;
+        }
+    }
+
+    /**
+     * 建表方法
+     * 没有字段类型，默认全是varchar，
+     * */
+    public static boolean createTable(String tableName, List<String> keys, ArrayNode datas) throws SQLException {
+        conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/"+url+"?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true",username,password);
+        int count = -1;
+        if (conn != null){
+            //拼接建表语句
+            String tableSql = "create table t_" + tableName + " (id int(10) auto_increment primary key,";
+            for (String key : keys){
+                tableSql += key + " varchar(50),";
+            }
+            tableSql = tableSql.substring(0,tableSql.length()-1);
+            tableSql += ");\n";
+            //拼接insert语句
+            tableSql += "insert into t_"+ tableName + " (";
+            for (String key: keys){
+                tableSql += key + ",";
+            }
+            tableSql = tableSql.substring(0,tableSql.length()-1);
+            tableSql += ") values(";
+            for (int i = 0; i < datas.size(); i++){
+                JsonNode jn = datas.get(i);
+                for (int j = 0; j < keys.size(); j++) {
+                    try {
+                        String value = jn.get(keys.get(j)).asText();
+                        tableSql += "'" + jn.get(keys.get(j)).asText() + "',";
+                    }catch (NullPointerException e){
+                        tableSql += "null,";
+                    }
+                }
+                tableSql = tableSql.substring(0, tableSql.length() - 1);
+                tableSql += "),(";
+            }
+            tableSql = tableSql.substring(0,tableSql.length()-2);
+            tableSql += ";";
+            Statement smt = conn.createStatement();
+
+            System.out.println(tableSql);
+
+            count = smt.executeUpdate(tableSql);
+        }
+        if (count==0){
+            conn.close();
+            return true;
+        }else{
+            conn.close();
+            return false;
+        }
+
     }
 
     /**
@@ -98,31 +157,31 @@ public class JDBCTools {
                 List<String> cols = new ArrayList<>();
                 List<String> colTypes = new ArrayList<>();
                 while (colRet.next()){//遍历表的列信息
-                    String columnName = colRet.getString("COLUMN_NAME");
-                    String columnType = colRet.getString("TYPE_NAME");
-                    int datasize = colRet.getInt("COLUMN_SIZE");
-                    int digits = colRet.getInt("DECIMAL_DIGITS");
-                    int nullable = colRet.getInt("NULLABLE");
-                    cols.add(columnName);
-                    if (columnType.equals("INT UNSIGNED"))
-                        columnType = "INT";
-                    if (columnType.equals("DATETIME"))
-                        datasize = 6;
-                    colTypes.add(columnType);
-                    String create_sql = columnName + " " + columnType + "(" + datasize;
-                    if (0 == digits){
-                        create_sql += ") ";
-                    }else {
-                        create_sql += "," + digits + ") ";
-                    }
+                        String columnName = colRet.getString("COLUMN_NAME");
+                        String columnType = colRet.getString("TYPE_NAME");
+                        int datasize = colRet.getInt("COLUMN_SIZE");
+                        int digits = colRet.getInt("DECIMAL_DIGITS");
+                        int nullable = colRet.getInt("NULLABLE");
+                        cols.add(columnName);
+                        if (columnType.equals("INT UNSIGNED"))
+                            columnType = "INT";
+                        if (columnType.equals("DATETIME"))
+                            datasize = 6;
+                        colTypes.add(columnType);
+                        String create_sql = columnName + " " + columnType + "(" + datasize;
+                        if (0 == digits){
+                            create_sql += ") ";
+                        }else {
+                            create_sql += "," + digits + ") ";
+                        }
 
-                    if (nullable == 0){
-                        create_sql += "not null,";
-                    }else {
-                        create_sql += ",";
-                    }
+                        if (nullable == 0){
+                            create_sql += "not null,";
+                        }else {
+                            create_sql += ",";
+                        }
 
-                    create_sqls.add(create_sql);
+                        create_sqls.add(create_sql);
                 }
                 create_sqls.add("PRIMARY KEY (" + primarykey + ")");
                 tabledata.put("create_sqls",create_sqls);
@@ -199,10 +258,14 @@ public class JDBCTools {
                 sql = sql.substring(0,sql.length()-2) + ";";
 
                 Statement smt = conn.createStatement();
-                if (smt.executeUpdate(sql) == 0)
+                if (smt.executeUpdate(sql) == 0){
+                    conn.close();
                     return true;
+                }
+
             }
         }
+        conn.close();
         return false;
     }
 }

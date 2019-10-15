@@ -63,4 +63,28 @@ $(document).ready(function(){
         log_ins.eq(2).val('');
         getCode();
     })
+	
+	$("#sign_sub").click(function(){
+		let signup_datas = {
+			"username" : $("#sign_id").val(),
+			"pwd" : $("#sign_pwd").val(),
+			"tel" : $("#sign_tel").val(),
+			"email" : $("#sign_email").val(),
+			"nick" : $("#sign_nick").val(),
+		}
+		$.ajax({
+                    type:"post",
+                    url:"/index/signup",
+                    data:{
+                        "signup_datas": JSON.stringify(signup_datas)
+                    },
+                    datatype:"json",
+                    success:function(data){
+                        if (data.code==0){
+                        	$("#sign_clear").click();
+                            $("#signup").modal("hide");
+                        }else alert("登录失败")
+                    }
+                })
+	})
 })

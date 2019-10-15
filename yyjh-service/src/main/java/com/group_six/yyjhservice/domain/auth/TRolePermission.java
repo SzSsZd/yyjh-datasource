@@ -9,5 +9,4 @@ public class TRolePermission {
     private Integer roleId;
 
     private Integer permissionId;
-
 }

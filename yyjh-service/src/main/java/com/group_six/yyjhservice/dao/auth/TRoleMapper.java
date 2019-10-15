@@ -13,7 +13,11 @@ public interface TRoleMapper {
 
     TRole findTRoleById(Integer id);
 
-    int updTRole(TRole record);
+    int updTRoleById(TRole record);
+
+    List<TRole> getAll();
+
+    TRole findTRoleByRolename(String rolename);
 
     List<TRole> findTRoleByLogid(String logid);
 }

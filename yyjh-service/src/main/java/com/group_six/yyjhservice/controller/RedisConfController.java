@@ -37,7 +37,7 @@ public class RedisConfController {
             datasource.setPort(port);
             datasource.setPassword(pwd);
             datasource.setType("redis");
-            tDatasourceService.addTDatasource(datasource);
+            tDatasourceService.addTDataSource(datasource);
 
             controllerResult.setCode(DatasourceEnum.SUCCESS.getCode());
             controllerResult.setMsg(DatasourceEnum.SUCCESS.getMsg());
